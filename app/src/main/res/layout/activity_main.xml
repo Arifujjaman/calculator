@@ -109,7 +109,53 @@
                 android:textSize="30sp"
                 android:id="@+id/btnmul"/>
         </LinearLayout>
-        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="95dp"
+                android:layout_height="75dp"
+                android:text="0"
+                android:textSize="30sp"
+                android:id="@+id/btn0"/>
+            <Button
+                android:layout_width="95dp"
+                android:layout_height="75dp"
+                android:text="."
+                android:textSize="30sp"
+                android:id="@+id/btndot"/>
+            <Button
+                android:layout_width="95dp"
+                android:layout_height="75dp"
+                android:text="mOd"
+                android:textSize="30sp"
+                android:id="@+id/btnmod"/>
+            <Button
+                android:layout_width="95dp"
+                android:layout_height="75dp"
+                android:text="/"
+                android:textSize="30sp"
+                android:id="@+id/btndiv"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="190dp"
+                android:layout_height="75dp"
+                android:text="ac"
+                android:textSize="30sp"
+                android:id="@+id/btnac"/>
+            <Button
+                android:layout_width="190dp"
+                android:layout_height="75dp"
+                android:text="="
+                android:textSize="30sp"
+                android:id="@+id/btneq"/>
+
+        </LinearLayout>
 
     </LinearLayout>
 
